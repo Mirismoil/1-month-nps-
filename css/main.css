@@ -1,0 +1,114 @@
+*{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+/* font-family YOGAKAN  */
+body{
+    margin: 0 ;
+    padding: 0 ;
+}
+.container{
+margin: 0 auto;
+padding: 0 20px;
+width: 1320px;
+}
+.top-site{
+    position: absolute;
+margin: -453px 271px;
+padding: 10px 10px;
+background-color: teal;
+border-radius: 20px;
+}
+.img_x{
+    position: absolute;
+    left: 515px;
+    top: 33px;
+    cursor: pointer;
+}
+.img_x_2{
+    position: absolute;
+    top: 30px;
+    left: 750px;
+}
+.img_x:hover .site-box-left {
+
+background-color: darkgoldenrod;
+}
+.site-map{
+ width: 100%;
+}
+.site-box-left{
+position: absolute;
+top: 30px;
+left: 600px;
+background: #FFFFFF;
+-webkit-box-shadow: 4px 4px 50px rgba(0, 0, 0, 0.1);
+        box-shadow: 4px 4px 50px rgba(0, 0, 0, 0.1);
+border-radius: 20px 0px 0px 20px;
+}
+.box-left-img{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.box-left-img_{
+    padding-bottom:21px ;
+    padding-left:20px ;
+ display: -webkit-box;
+ display: -ms-flexbox;
+ display: flex;
+ -webkit-box-orient: vertical;
+ -webkit-box-direction: normal;
+     -ms-flex-direction: column;
+         flex-direction: column;
+
+}
+img + img{
+    padding-top: 30px;
+}
+.site-text-box-max-title{
+    font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+color: #464646;
+}
+.site-text-box-max-text{
+    padding-left: 295px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+ text-align: right;
+    color: #464646;
+}
+.site-text-box-max-text2{
+    padding: 0px 100px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: right;
+    color: #464646;
+}
+.site-text-box-max-text_2{
+    padding: 0px 144px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+  text-align: center;  
+    color: #464646;
+}
+.site-text-box-max-text_{
+padding: 0px 243px;
+}
+.site-text-box-max-{
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #464646;
+}
